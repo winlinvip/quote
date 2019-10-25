@@ -3,9 +3,9 @@
 // license that can be found in the LICENSE file.
 
 // Package quote collects pithy sayings.
-package quote // import "rsc.io/quote"
+package quote
 
-import "rsc.io/quote/v3"
+import "github.com/winlinvip/quote/v3"
 
 // Hello returns a greeting.
 func Hello() string {
