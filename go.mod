@@ -1,5 +1,8 @@
 module github.com/winlinvip/quote
 
-require rsc.io/sampler v1.3.0
+require (
+	golang.org/x/text v0.3.2 // indirect
+	rsc.io/sampler v1.99.99
+)
 
 go 1.13
