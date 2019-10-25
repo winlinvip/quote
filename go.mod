@@ -1,3 +1,5 @@
-module "rsc.io/quote"
+module github.com/winlinvip/quote
 
-require "rsc.io/sampler" v1.3.0
+require rsc.io/sampler v1.3.0
+
+go 1.13
