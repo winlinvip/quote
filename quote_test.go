@@ -14,7 +14,7 @@ func init() {
 }
 
 func TestHello(t *testing.T) {
-	hello := "Hello, world."
+	hello := "99 bottles of beer on the wall, 99 bottles of beer, ..."
 	if out := Hello(); out != hello {
 		t.Errorf("Hello() = %q, want %q", out, hello)
 	}
