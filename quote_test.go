@@ -15,28 +15,28 @@ func init() {
 
 func TestHello(t *testing.T) {
 	hello := "Hello, world."
-	if out := Hello(); out != hello {
+	if out := HelloV2(); out != hello {
 		t.Errorf("Hello() = %q, want %q", out, hello)
 	}
 }
 
 func TestGlass(t *testing.T) {
 	glass := "I can eat glass and it doesn't hurt me."
-	if out := Glass(); out != glass {
+	if out := GlassV2(); out != glass {
 		t.Errorf("Glass() = %q, want %q", out, glass)
 	}
 }
 
 func TestGo(t *testing.T) {
 	go1 := "Don't communicate by sharing memory, share memory by communicating."
-	if out := Go(); out != go1 {
+	if out := GoV2(); out != go1 {
 		t.Errorf("Go() = %q, want %q", out, go1)
 	}
 }
 
 func TestOpt(t *testing.T) {
 	opt := "If a program is too slow, it must have a loop."
-	if out := Opt(); out != opt {
+	if out := OptV2(); out != opt {
 		t.Errorf("Opt() = %q, want %q", out, opt)
 	}
 }
