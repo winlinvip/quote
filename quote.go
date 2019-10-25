@@ -28,3 +28,5 @@ func Opt() string {
 	// Wisdom from ken.
 	return "If a program is too slow, it must have a loop."
 }
+
+x
